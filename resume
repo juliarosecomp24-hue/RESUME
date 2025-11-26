@@ -22,15 +22,15 @@
     <main>
         <section id="home">
             <h2>Personal Details</h2>
-            <p><strong>Name:</strong> J ABINAYA</p>
-            <p><strong>Father's Name:</strong> jayapal</p>
-            <p><strong>Mother's Name:</strong> akhila</p>
-            <p><strong>Date of Birth:</strong> 28-nov-2006</p>
-            <p><strong>Email:</strong> jabinaya@gmail.com</p>
-            <p><strong>Phone:</strong> +91 9495xxyyzz</p>
-            <p><strong>Address:</strong> Peringavu</p>
+            <p><strong>Name:</strong> JULIA ROSE</p>
+            <p><strong>Father's Name:</strong>JOSE KK</p>
+            <p><strong>Mother's Name:</strong>LUCY</p>
+            <p><strong>Date of Birth:</strong>8-APRIL-2006</p>
+            <p><strong>Email:</strong> juliarose13273@gmail.com</p>
+            <p><strong>Phone:</strong> +9093993xxyyzz</p>
+            <p><strong>Address:</strong>kappani (h) pallikunnu,varandharappilly</p>
             <p><strong>Nationality:</strong> Indian</p>
-            <p><strong>Languages Known:</strong> English, Tamil</p>
+            <p><strong>Languages Known:</strong> English, Tamil,Malayalam</p>
         </section>
         <section id="education">
             <h2>Education</h2>
@@ -45,12 +45,12 @@
                 <tbody>
                     <tr>
                         <td>BCA</td>
-                        <td>St. Mary's College</td>
+                        <td>St. Mary's College (Autonomous)Thrissur</td>
                         <td>2024–2028</td>
                     </tr>
                     <tr>
                         <td>Schooling</td>
-                        <td>Paramekkavu Vidya Mandir</td>
+                        <td>Chemmanur Joseph Higher Seconday School</td>
                         <td>2024</td>
                     </tr>
                 </tbody>
@@ -60,22 +60,23 @@
             <h2>Skills</h2>
             <ul>
                 <li>HTML, CSS, JavaScript</li>
-                <li>Python / Java / C</li>
+                <li>Python / Java / C /Html</li>
                 <li>Communication Skills</li>
                 <li>Problem Solving</li>
             </ul>
         </section>
         <section id="contact">
             <h2>Contact Me</h2>
-            <p>Email: jabinaya@gmail.com</p>
+            <p>Email: juliarose13273@gmail.com</p>
             <p>LinkedIn: gdedccxsx</p>
-            <p>GitHub: jabinaya-edu</p>
+            <p>GitHub: julia-edu</p>
         </section>
 
     </main>
 
     <footer>
-        <p>© 2025 j abinaya</p>
+        <p>© 2025 julia Rose</p>
     </footer>
 </body>
+
 </html>
