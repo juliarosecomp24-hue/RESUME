@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">My Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Personal Details</h2>
+            <p><strong>Name:</strong> J ABINAYA</p>
+            <p><strong>Father's Name:</strong> jayapal</p>
+            <p><strong>Mother's Name:</strong> akhila</p>
+            <p><strong>Date of Birth:</strong> 28-nov-2006</p>
+            <p><strong>Email:</strong> jabinaya@gmail.com</p>
+            <p><strong>Phone:</strong> +91 9495xxyyzz</p>
+            <p><strong>Address:</strong> Peringavu</p>
+            <p><strong>Nationality:</strong> Indian</p>
+            <p><strong>Languages Known:</strong> English, Tamil</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <table border="1" cellpadding="10" style="border-collapse: collapse; width: 60%;">
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BCA</td>
+                        <td>St. Mary's College</td>
+                        <td>2024–2028</td>
+                    </tr>
+                    <tr>
+                        <td>Schooling</td>
+                        <td>Paramekkavu Vidya Mandir</td>
+                        <td>2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python / Java / C</li>
+                <li>Communication Skills</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: jabinaya@gmail.com</p>
+            <p>LinkedIn: gdedccxsx</p>
+            <p>GitHub: jabinaya-edu</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 j abinaya</p>
+    </footer>
+</body>
+</html>
