@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>julia Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f6ff;
+            color: #1e2a47;
+        }
+
+        nav {
+            background: #1e2a47;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffbc3f;
+        }
+
+        .hero {
+            padding: 120px 20px 60px;
+            text-align: center;
+            background: #1e2a47;
+            color: white;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+
+        .skills-list div {
+            background: #1e2a47;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 6px;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .project {
+            background: #ffffff;
+            padding: 20px;
+            width: 270px;
+            border-radius: 10px;
+            box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .project button {
+            background: #1e2a47;
+            color: white;
+            padding: 10px 18px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 10px;
+        }
+
+        .project button:hover {
+            background: #ffbc3f;
+            color: #1e2a47;
+        }
+
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            max-width: 450px;
+            padding: 14px;
+            margin: 10px auto;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            display: block;
+        }
+
+        .contact button {
+            padding: 12px 25px;
+            border: none;
+            background: #1e2a47;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+
+        .contact button:hover {
+            background: #ffbc3f;
+            color: #1e2a47;
+        }
+
+        footer {
+            background: #1e2a47;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">julia</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero" id="home">
+        <h1>julia rose</h1>
+        <p>Web Developer • Designer • Programmer</p>
+        <p>I am a passionate IT student who loves coding, design, and technology.</p>
+    </div>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am a student with a passion for programming. I enjoy learning new technologies, designing creative interfaces, and building websites.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div>HTML / CSS / JavaScript</div>
+            <div>React / Node.js</div>
+            <div>Python / Java</div>
+            <div>UI / UX Design</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects">
+            <div class="project">
+                <h3>Resume Maker</h3>
+                <p>Project focused on creating professional resumes.</p>
+                <button>View Project</button>
+            </div>
+
+            <div class="project">
+                <h3>Website Design</h3>
+                <p>Creating and designing modern web pages.</p>
+                <button>View Project</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><b>St. Mary’s College, Thrissur</b><br>BCA | 2024 - 2028</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="5" placeholder="Message"></textarea>
+        <button>Send Message</button>
+    </section>
+
+    <footer>
+        © 2025 julia rose — All Rights Reserved
+    </footer>
+
+</body>
+</html>
